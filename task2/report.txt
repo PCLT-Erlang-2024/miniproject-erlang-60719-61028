@@ -1,0 +1,4 @@
+Task 2 - Brief Report
+
+Same as task 1, but now trucks notify their associated conveyor when they are being replaced and place the
+package that didn't fit into the new truck, ensuring no packages are lost.

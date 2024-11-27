@@ -1,0 +1,9 @@
+Task1 - Brief Report
+
+The start_system/1 function creates TruckIds and spawns conveyor_belt/2 processes. Each conveyor process comunicates with its corresponding truck through message passing.
+
+Load Managing: The truck_loop/3 function continuously updates the CurrentLoad based on the received package size and resets when the Capacity is reached.
+
+Synchronization: The system uses timer:sleep(1000) to introduce a delay between package deliveries to simulate some processing time.
+
+Termination Control: The conveyor_belt/2 function exits after completing its send_packages/3 loop, ensuring that conveyor belts stop once their task is complete.
